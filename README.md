@@ -30,7 +30,7 @@ Jika pernyataan gagal, Python menggunakan ArgumentExpression ArgumentExpression 
 - Berikut adalah fungsi fungsi yang mengubah suhu dari derajat Kelvin menjadi derajat Fahrenheit.Karena nol derajat Kelvin dingin, fungsi fungsi menyimpannya jika melihat negatif negatif suhu.
 - Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 
-![gambar 1](screenshot/ss1.png)
+![gambar 1](Screenshot/ss1.png)
 
 ## Menangani Pengecualian
 
@@ -42,13 +42,13 @@ Jika Anda memiliki beberapa kode mencurigakan yang mungkin mengeluarkan pengecua
 
 - Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 
-![gambar 2](screenshot/ss2.png)
+![gambar 2](Screenshot/ss2.png)
 
 - Contoh ini mencoba membuka file yang Anda tidak memiliki izin menulis, sehingga membuat file pengecualian
 
 - Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 
-![gambar 3](screenshot/ss3.png)
+![gambar 3](Screenshot/ss3.png)
 
 ## Fasal kecuali tanpa Pengecualian
 
@@ -68,11 +68,11 @@ try: You do your operations here; ...................... except(Exception1[, Exc
 
 - Jika Anda tidak memiliki izin untuk membuka file dalam mode tulis yang dapat ditulis, maka ini akan menghasilkan hasil berikut:
 
-![gambar 4](screenshot/ss4.png)
+![gambar 4](Screenshot/ss4.png)
 
 - Contoh yang sama dapat ditulis lebih bersih sebagai berikut:
 
-![gambar 5](screenshot/ss5.png)
+![gambar 5](Screenshot/ss5.png)
 
 Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhir memblok. Setelah semua pernyataan di blok akhirnya dieksekusi, pengecualian dimunculkan lagi dan ditangani dalam pernyataan kecuali jika ada di lapisan berikutnya yang lebih tinggi dari percobaan-kecuali penyataan.
 
@@ -83,7 +83,7 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 - Berikut adalah contoh untuk satu pengecualian
 - Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 
-![gambar 6](screenshot/ss6.png)
+![gambar 6](Screenshot/ss6.png)
 
 ## Melempar Pengecualian
 
@@ -91,7 +91,7 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 
 - Pengecualian dapat berupa string, kelas, atau objek. Sebagian besar pengecualian adalah pengecualian dari inti Python menimbulkan adalah kelas, dengan argumen=argumen yang merupakan turunan dari kelas. Mendefinisikan pengecualian barucukup mudah dan dapat dilakukan sebagai berikut:
 
-![gambar 7](screenshot/ss7.png)
+![gambar 7](Screenshot/ss7.png)
 
 ## Pengecualian yang Ditetapkan Pengguna
 
@@ -99,7 +99,7 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 - Berikut adalah contoh-contoh yang terkait dengan RuntimeError. Di sini, kelas dibuat yang merupakan subkelas dari subkelas RuntimeError. Ini berguna saat Anda perlumenampilkan tampilan informasi yang lebih spesifik saat e pengecualian tertangkap.
 - Di blok coba, pengecualian yang ditentukan pengguna dimunculkan dan ditangkap di blok kecuali. Itu variabel e digunakan untuk membuat instance dari kelas Networkerror.
 
-![gambar 8](screenshot/ss8.png)
+![gambar 8](Screenshot/ss8.png)
 
 **Sekian Tugas Praktikum di Pertemuan kali ini.**
 
